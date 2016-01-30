@@ -27,7 +27,7 @@
         url = "{{ url(config('editor.uploadUrl')) }}";
 
         var myEditor = new Editor(url);
-        myEditor.render('#iMarkdownEditor');
+        myEditor.render('#myEditor');
     });
 </script>
 
