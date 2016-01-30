@@ -62,7 +62,7 @@ class iMarkdownEditor{
         return $parsedown->text($markdownText);*/
 
         $parser = new \cebe\markdown\Markdown();
-        $parser->parse($markdownText);
+        return $parser->parse($markdownText);
     }
 
 }
